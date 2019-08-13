@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message ReceivedMessage {
+    string user_id = 1; //用户id
+    string user_message = 2; //当前用户传递的消息
+    int32 create_time = 3; //当前消息发送的时间
+}
+
+message ResponsedMessage {
+    string user_response = 1; //返回给用户的消息
+    int32 create_time = 2; //返回给用户的时间
+}
+
+service ChatBotService {
+  rpc Chatbot (ReceivedMessage) returns (ResponsedMessage);
+}
