@@ -22,7 +22,7 @@ grpcio-tools==1.16.1
 gunicorn==19.9.0
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 kafka-python==1.4.5
 kombu==4.2.1
 limits==1.3
