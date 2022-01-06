@@ -4,7 +4,7 @@ aniso8601==4.0.1
 APScheduler==3.5.3
 billiard==3.5.0.4
 blinker==1.4
-celery==4.2.1
+celery==5.2.2
 certifi==2018.11.29
 chardet==3.0.4
 Click==7.0
